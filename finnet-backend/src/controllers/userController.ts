@@ -1,4 +1,4 @@
-import { Request, Response } from 'express';
+import type { Request, Response } from 'express';
 import * as userService from '../services/userService';
 
 export const getUsers = (req: Request, res: Response) => {

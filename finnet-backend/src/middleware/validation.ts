@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express';
+import type { Request, Response, NextFunction } from 'express';
 import type { CreatePostInput } from '../types';
 
 export const validateCreatePost = (req: Request, res: Response, next: NextFunction) => {

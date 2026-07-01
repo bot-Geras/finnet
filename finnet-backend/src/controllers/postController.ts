@@ -1,4 +1,4 @@
-import { Request, Response } from 'express';
+import type { Request, Response } from 'express';
 import * as postService from '../services/postService';
 import * as userService from '../services/userService';
 
