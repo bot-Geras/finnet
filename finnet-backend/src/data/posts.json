@@ -1,0 +1,107 @@
+[
+  {
+    "userId": 1,
+    "title": "The Future of Digital Banking",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "createdAt": "2026-07-01T15:06:21.473Z",
+    "id": 1
+  },
+  {
+    "userId": 1,
+    "title": "How Blockchain is Changing Finance",
+    "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "createdAt": "2026-06-30T15:06:21.474Z",
+    "id": 2
+  },
+  {
+    "userId": 1,
+    "title": "My Journey in Fintech",
+    "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    "createdAt": "2026-06-29T15:06:21.474Z",
+    "id": 3
+  },
+  {
+    "userId": 2,
+    "title": "Investment Strategies for 2024",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "createdAt": "2026-07-01T15:06:21.474Z",
+    "id": 4
+  },
+  {
+    "userId": 2,
+    "title": "Understanding Crypto Markets",
+    "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "createdAt": "2026-06-30T15:06:21.474Z",
+    "id": 5
+  },
+  {
+    "userId": 2,
+    "title": "Risk Management in Trading",
+    "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    "createdAt": "2026-06-29T15:06:21.474Z",
+    "id": 6
+  },
+  {
+    "userId": 3,
+    "title": "The Rise of DeFi",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "createdAt": "2026-07-01T15:06:21.474Z",
+    "id": 7
+  },
+  {
+    "userId": 3,
+    "title": "Women in Fintech Leadership",
+    "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "createdAt": "2026-06-30T15:06:21.474Z",
+    "id": 8
+  },
+  {
+    "userId": 3,
+    "title": "Sustainable Investing",
+    "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    "createdAt": "2026-06-29T15:06:21.474Z",
+    "id": 9
+  },
+  {
+    "userId": 4,
+    "title": "AI in Financial Services",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "createdAt": "2026-07-01T15:06:21.474Z",
+    "id": 10
+  },
+  {
+    "userId": 4,
+    "title": "The Psychology of Money",
+    "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "createdAt": "2026-06-30T15:06:21.474Z",
+    "id": 11
+  },
+  {
+    "userId": 4,
+    "title": "Building Trust in Digital Finance",
+    "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    "createdAt": "2026-06-29T15:06:21.474Z",
+    "id": 12
+  },
+  {
+    "userId": 5,
+    "title": "Financial Freedom Through Tech",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "createdAt": "2026-07-01T15:06:21.474Z",
+    "id": 13
+  },
+  {
+    "userId": 5,
+    "title": "The Future of Payments",
+    "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "createdAt": "2026-06-30T15:06:21.474Z",
+    "id": 14
+  },
+  {
+    "userId": 5,
+    "title": "Personal Finance Tips",
+    "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    "createdAt": "2026-06-29T15:06:21.474Z",
+    "id": 15
+  }
+]

@@ -1,6 +1,11 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import type { User, Post } from '../types';
+
+// Get __dirname in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const users: Omit<User, 'id'>[] = [
   {
@@ -80,19 +85,24 @@ const generatePosts = (userId: number): Omit<Post, 'id'>[] => {
 
 const seed = (): void => {
   const dataDir = path.join(__dirname, '../data');
+  console.log(`📁 Creating data directory at: ${dataDir}`);
+  
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
+    console.log('✅ Data directory created');
   }
 
+  // Write users with IDs
   const usersWithIds = users.map((user, index) => ({
     ...user,
     id: index + 1
   }));
-  fs.writeFileSync(
-    path.join(dataDir, 'users.json'),
-    JSON.stringify(usersWithIds, null, 2)
-  );
+  
+  const usersPath = path.join(dataDir, 'users.json');
+  fs.writeFileSync(usersPath, JSON.stringify(usersWithIds, null, 2));
+  console.log(`✅ Users saved to: ${usersPath}`);
 
+  // Write posts with IDs
   const allPosts: Omit<Post, 'id'>[] = [];
   usersWithIds.forEach(user => {
     const posts = generatePosts(user.id);
@@ -103,16 +113,22 @@ const seed = (): void => {
     ...post,
     id: index + 1
   }));
-  fs.writeFileSync(
-    path.join(dataDir, 'posts.json'),
-    JSON.stringify(postsWithIds, null, 2)
-  );
+  
+  const postsPath = path.join(dataDir, 'posts.json');
+  fs.writeFileSync(postsPath, JSON.stringify(postsWithIds, null, 2));
+  console.log(`✅ Posts saved to: ${postsPath}`);
 
-  console.log('Database seeded successfully!');
-  console.log(`${usersWithIds.length} users created`);
-  console.log(`${postsWithIds.length} posts created`);
+  console.log('\n✅ Database seeded successfully!');
+  console.log(`📊 ${usersWithIds.length} users created`);
+  console.log(`📝 ${postsWithIds.length} posts created`);
   console.log('\nUsers:');
   usersWithIds.forEach(u => console.log(`  ${u.id}. ${u.name} (${u.email})`));
+  console.log('\nPosts per user:');
+  usersWithIds.forEach(u => {
+    const count = postsWithIds.filter(p => p.userId === u.id).length;
+    console.log(`  ${u.name}: ${count} posts`);
+  });
 };
 
+// Run seed
 seed();

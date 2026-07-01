@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@finnet.com",
+    "company": {
+      "name": "FinnetTrust"
+    },
+    "address": {
+      "street": "123 Blockchain Blvd",
+      "city": "San Francisco"
+    },
+    "id": 1
+  },
+  {
+    "name": "Michael Chen",
+    "email": "michael.chen@finnet.com",
+    "company": {
+      "name": "FinnetTrust"
+    },
+    "address": {
+      "street": "456 Crypto Lane",
+      "city": "New York"
+    },
+    "id": 2
+  },
+  {
+    "name": "Emily Rodriguez",
+    "email": "emily.rodriguez@finnet.com",
+    "company": {
+      "name": "FinnetTrust"
+    },
+    "address": {
+      "street": "789 Fintech Ave",
+      "city": "Austin"
+    },
+    "id": 3
+  },
+  {
+    "name": "David Kim",
+    "email": "david.kim@finnet.com",
+    "company": {
+      "name": "FinnetTrust"
+    },
+    "address": {
+      "street": "101 Innovation Drive",
+      "city": "Seattle"
+    },
+    "id": 4
+  },
+  {
+    "name": "Lisa Thompson",
+    "email": "lisa.thompson@finnet.com",
+    "company": {
+      "name": "FinnetTrust"
+    },
+    "address": {
+      "street": "202 Digital Way",
+      "city": "Boston"
+    },
+    "id": 5
+  }
+]
