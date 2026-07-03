@@ -2,7 +2,7 @@
   "name": "finnet-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
