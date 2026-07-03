@@ -1,7 +1,7 @@
 
 import { useQuery, useQueryClient, useMutation } from '@tanstack/react-query'
 import { getUsers, getPostsByUserId, createPost } from '../api'
-import type { User, Post, CreatePostInput, ApiResponse } from '../types'
+import type { User,CreatePostInput, ApiResponse } from '../types'
 
 export function useUsers() {
   return useQuery({
@@ -20,7 +20,7 @@ export function useUserPosts(userId: number | null) {
   return useQuery({
     queryKey: ['userPosts', userId],
     queryFn: async () => {
-      if (!userId) return []
+      if (!userId) return null
       const response = await getPostsByUserId(userId)
       if (!response.success) {
         throw new Error(response.error || 'Failed to fetch posts')
@@ -28,6 +28,7 @@ export function useUserPosts(userId: number | null) {
       return { posts: response.data, user: response.user }
     },
     enabled: !!userId,
+    staleTime: 1000 * 60 * 5, // Don't refetch for 5 minutes
   })
 }
 
