@@ -1,6 +1,7 @@
 import type { User, Post, CreatePostInput, ApiResponse } from '../types';
 
-const API_BASE_URL = import.meta.env.BACKEND_SERVER_URL!;
+const API_BASE_URL = import.meta.env.BASE_URL!;
+console.log(API_BASE_URL);
 
 export const getUsers = async (): Promise<ApiResponse<User[]>> => {
     const response = await fetch(`${API_BASE_URL}/users`);
