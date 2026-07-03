@@ -6,7 +6,7 @@ const corsOptions = {
     // allowedHeaders: ['Content-Type', 'Authorization'],
     // credentials: true,
     // optionsSuccessStatus: 200,
-     origin: process.env.FRONTEND_URL!, // Allow requests from this origin
+     origin: [process.env.FRONTEND_URL,  'http://localhost:5173',], // Allow requests from this origin
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allow these HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allow these headers
     credentials: true, // Allow cookies to be sent with requests
